@@ -342,6 +342,7 @@ Available props:
 as: PropTypes.oneOfType([
   PropTypes.func,
   PropTypes.string,
+  PropTypes.object,
 ]),
 
 /**

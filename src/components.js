@@ -243,7 +243,7 @@ Link.propTypes = {
    *
    * Defaults to an anchor "a" tag.
    */
-  as: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
+  as: PropTypes.oneOfType([PropTypes.func, PropTypes.string, PropTypes.object]),
 
   /**
    * A valid relative or absolute URL string.
